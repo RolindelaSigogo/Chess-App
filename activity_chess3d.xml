@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chess_background">
+
+    <io.github.sceneview.SceneView
+        android:id="@+id/sceneView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="top|center_horizontal"
+        android:background="@color/chess_overlay"
+        android:padding="10dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/tv_current_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/white_turn"
+            android:textSize="16sp"
+            android:textColor="@color/chess_white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_to_menu"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="16dp"
+        android:background="@color/chess_black"
+        android:textColor="@color/chess_white" />
+
+</FrameLayout>
