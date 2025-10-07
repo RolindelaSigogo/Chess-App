@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="chess_white">#FFFFFFFF</color>
+    <color name="chess_black">#FF000000</color>
+    <color name="chess_background">#FF2E2E2E</color>
+    <color name="chess_overlay">#80000000</color>
+    <color name="chess_highlight">#80FF0000</color>
+
+    <!-- Chess board colors -->
+    <color name="light_square">#FFF0D9B5</color>
+    <color name="dark_square">#FFB58863</color>
+</resources>

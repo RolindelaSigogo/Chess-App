@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MOMO 3D Chess</string>
+    <string name="play_chess">Play Chess</string>
+    <string name="settings">Settings</string>
+    <string name="exit">Exit</string>
+    <string name="back_to_menu">Back to Menu</string>
+    <string name="white_turn">White\'s Turn</string>
+    <string name="black_turn">Black\'s Turn</string>
+    <string name="check">Check!</string>
+    <string name="checkmate">Checkmate! %s wins!</string>
+    <string name="stalemate">Stalemate - Draw!</string>
+</resources>
